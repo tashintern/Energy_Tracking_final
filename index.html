@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EnergyMap</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              'energy-positive-5': 'hsl(140, 80%, 40%)',
+              'energy-positive-4': 'hsl(140, 70%, 50%)',
+              'energy-positive-3': 'hsl(140, 60%, 60%)',
+              'energy-positive-2': 'hsl(140, 50%, 70%)',
+              'energy-positive-1': 'hsl(140, 40%, 80%)',
+              'energy-neutral': 'hsl(210, 10%, 70%)',
+              'energy-negative-1': 'hsl(0, 40%, 80%)',
+              'energy-negative-2': 'hsl(0, 50%, 70%)',
+              'energy-negative-3': 'hsl(0, 60%, 60%)',
+              'energy-negative-4': 'hsl(0, 70%, 50%)',
+              'energy-negative-5': 'hsl(0, 80%, 40%)',
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.25.0",
+    "recharts": "https://aistudiocdn.com/recharts@^3.3.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

@@ -1,0 +1,5 @@
+
+{
+  "name": "EnergyMap",
+  "description": "A web application to log your activities, track your energy levels throughout the week, and gain insights into what energizes and drains you. It helps you identify flow states and optimize your time for better productivity and well-being, with data persisted to Google Sheets."
+}
